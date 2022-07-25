@@ -6,6 +6,9 @@
   "bin": {
     "ppp": "cli.js tasks"
   },
+  "files": [
+    "*.js"
+  ],
   "dependencies": {
     "commander": "^9.4.0",
     "inquirer": "^8.0.0"
