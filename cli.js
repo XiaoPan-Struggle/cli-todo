@@ -9,9 +9,6 @@ const api = require("./index.js");
 * */
 
 program
-  .option("-x, --xxx", "what the x");
-
-program
   .command("add <taskName>")
   .description("add a task")
   .action((taskName) => {

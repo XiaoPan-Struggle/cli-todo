@@ -1,10 +1,10 @@
 {
   "name": "ppp-todo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "license": "MIT",
   "bin": {
-    "ppp": "cli.js tasks"
+    "ppp": "cli.js"
   },
   "files": [
     "*.js"
