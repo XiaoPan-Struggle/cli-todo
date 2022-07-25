@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+// shebang用来告诉用什么环境执行
+// 执行 chmod +x cli.js 命令将 cli.js 变成可执行文件
 const {program} = require("commander");
 const api = require("./index.js");
 
