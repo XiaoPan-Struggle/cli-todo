@@ -1,8 +1,11 @@
 {
   "name": "cli-todo",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
+  "bin": {
+    "ppp": "cli.js tasks"
+  },
   "dependencies": {
     "commander": "^9.4.0",
     "inquirer": "^8.0.0"
